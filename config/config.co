@@ -34,3 +34,13 @@ define user ask about household survey data
 define flow
   user ask about household survey data
   bot response about household survey data
+
+define user ask off topic
+    "Who is the president?"
+    "Can you recommend the best stocks to buy?"
+    "Can you write an email?"
+    "Can you tell me a joke?"
+    ...
+
+define bot explain cant help with off topic
+    "I cannot comment on anything which is not relevant to the job report"
